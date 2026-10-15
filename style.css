@@ -580,3 +580,28 @@ header .hero-subtitle {
     color: #8DB9E8;
 }
 ```
+
+```css
+/* Fix Instagram and LinkedIn icon sizes */
+
+.social-button-row .social-icon {
+    width: 36px !important;
+    height: 36px !important;
+    min-width: 36px;
+    min-height: 36px;
+    padding: 0 !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.social-button-row .social-icon svg {
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px;
+    max-height: 20px;
+    display: block;
+}
+```
